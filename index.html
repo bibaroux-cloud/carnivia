@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnivia - Il Network Virtuale Criptato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="matrix-bg" id="matrixBg"></div>
+    
+    <div class="login-container">
+        <header>
+            <div class="logo">CARNIVIA</div>
+            <p class="subtitle">SISTEMA DI ACCESSO CRIPTATO // VENEZIA VIRTUALE</p>
+        </header>
+
+        <main>
+            <div id="status-terminal" class="terminal-box">
+                <p class="blink">> IN ATTESA DI AUTENTICAZIONE...</p>
+            </div>
+
+            <form id="loginForm" onsubmit="handleLogin(event)">
+                <div class="input-group">
+                    <label for="username">ID UTENTE ANONYMOUS</label>
+                    <input type="text" id="username" required placeholder="Inserisci il tuo alias...">
+                </div>
+                <div class="input-group">
+                    <label for="password">CHIAVE DI CIFRATURA</label>
+                    <input type="password" id="password" required placeholder="••••••••">
+                </div>
+                <button type="submit" class="btn-access">INIZIA DECRIPTAZIONE</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>Connessione Sicura SSL a 256-bit // Stato Rete: <span class="online">Protetto</span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+Usa il codice con cautela.Creazione del file style.cssOra crea un secondo file a sinistra, chiamalo esattamente style.css e incolla questo codice per dare al sito un aspetto da computer hacker oscuro stile romanzo cyber-thriller:css* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #050505;
+    color: #00ff66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.matrix-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0,30,10,0.3) 0%, rgba(5,5,5,1) 80%);
+    z-index: 1;
+}
+
+.login-container {
+    position: relative;
+    z-index: 2;
+    background: rgba(10, 10, 10, 0.9);
+    border: 2px solid #00ff66;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 255, 102, 0.2);
+    width: 100%;
+    max-width: 450px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #00ff66;
+}
+
+.subtitle {
+    font-size: 0.75rem;
+    color: #00aa44;
+    margin-top: 10px;
+}
+
+.terminal-box {
+    background: #001104;
+    border: 1px solid #005511;
+    padding: 12px;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+    border-radius: 3px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    color: #00aa44;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background: #000;
+    border: 1px solid #00ff66;
+    color: #00ff66;
+    font-size: 1rem;
+    border-radius: 3px;
+    outline: none;
+}
+
+input:focus {
+    box-shadow: 0 0 8px rgba(0, 255, 102, 0.5);
+}
+
+.btn-access {
+    width: 100%;
+    padding: 15px;
+    background: #00ff66;
+    color: #000;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+
+.btn-access:hover {
+    background: #000;
+    color: #00ff66;
+    border: 1px solid #00ff66;
+    box-shadow: 0 0 15px #00ff66;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: #555;
+}
+
+.online {
+    color: #00ff66;
+    font-weight: bold;
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+Usa i
